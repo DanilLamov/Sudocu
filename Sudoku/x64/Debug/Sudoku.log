@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\Dlamo\YandexDisk\Sudoku\Sudoku\Source.cpp(1003,2): error C2065: TForm1: необъявленный идентификатор
+C:\Users\Dlamo\YandexDisk\Sudoku\Sudoku\Source.cpp(1003,10): error C2065: Form1: необъявленный идентификатор
+C:\Users\Dlamo\YandexDisk\Sudoku\Sudoku\Source.cpp(1006,56): error C2664: "HWND FindWindowW(LPCWSTR,LPCWSTR)": невозможно преобразовать аргумент 1 из "const char [14]" в "LPCWSTR"
+C:\Users\Dlamo\YandexDisk\Sudoku\Sudoku\Source.cpp(1006,35): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(10049,1): message : см. объявление "FindWindowW"
+C:\Users\Dlamo\YandexDisk\Sudoku\Sudoku\Source.cpp(1007,42): error C2664: "HWND FindWindowW(LPCWSTR,LPCWSTR)": невозможно преобразовать аргумент 1 из "const char [7]" в "LPCWSTR"
+C:\Users\Dlamo\YandexDisk\Sudoku\Sudoku\Source.cpp(1007,28): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(10049,1): message : см. объявление "FindWindowW"
+C:\Users\Dlamo\YandexDisk\Sudoku\Sudoku\Source.cpp(1010,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
